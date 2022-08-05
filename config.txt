@@ -1,5 +1,0 @@
-{
-    "USERNAME": "zskj",
-    "PASSWORD": "18292196148zzzz",
-    "XMLRPC_PHP": "http://bqzzd.cn/wordpress/xmlrpc.php"
-}

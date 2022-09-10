@@ -11,6 +11,7 @@ import re
 import urllib.parse
 
 config_file_txt = ""
+config_file_txt = ""
 
 if((os.path.exists(os.path.join(os.getcwd(), "diy_config.txt")) == True)):
     config_file_txt = os.path.join(os.getcwd(), "diy_config.txt")
@@ -22,7 +23,7 @@ config_info = {}
 
 with open (config_file_txt, 'rb') as f:
     config_info = json.loads(f.read())
-
+print(config_info)
 
 username = config_info["USERNAME"]
 password = config_info["PASSWORD"]
